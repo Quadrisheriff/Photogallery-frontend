@@ -12,7 +12,7 @@ pagination:
  {%- for photo in photos -%}
     <div class="w-full rounded">
         <img src="{{ photo.Image.url }}"
-            alt="{{ photo.Image.description }}">
+            alt="{{ photo.Description }}">
     </div>
     {%- endfor -%}
 </div>
